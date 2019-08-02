@@ -1,0 +1,26 @@
+﻿  pch.cpp
+  Post fix.cpp
+e:\old download files\post fix\post fix\post fix.cpp(126): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xutility(2483): error C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xutility(2483): note: see declaration of 'std::copy::_Unchecked_iterators::_Deprecate'
+  e:\old download files\post fix\packages\boost.1.68.0.0\lib\native\include\boost\algorithm\string\detail\classification.hpp(102): note: see reference to function template instantiation '_OutIt *std::copy<const char*,char*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _InIt=const char *
+          ]
+  e:\old download files\post fix\packages\boost.1.68.0.0\lib\native\include\boost\algorithm\string\classification.hpp(206): note: see reference to function template instantiation 'boost::algorithm::detail::is_any_ofF<char>::is_any_ofF<boost::iterator_range<const char *>>(const RangeT &)' being compiled
+          with
+          [
+              RangeT=boost::iterator_range<const char *>
+          ]
+  e:\old download files\post fix\packages\boost.1.68.0.0\lib\native\include\boost\algorithm\string\classification.hpp(206): note: see reference to function template instantiation 'boost::algorithm::detail::is_any_ofF<char>::is_any_ofF<boost::iterator_range<const char *>>(const RangeT &)' being compiled
+          with
+          [
+              RangeT=boost::iterator_range<const char *>
+          ]
+  e:\old download files\post fix\post fix\post fix.cpp(26): note: see reference to function template instantiation 'boost::algorithm::detail::is_any_ofF<char> boost::algorithm::is_any_of<char[2]>(const RangeT (&))' being compiled
+          with
+          [
+              RangeT=char [2]
+          ]
